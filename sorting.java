@@ -13,7 +13,7 @@ import javax.swing.Timer;
 
 public class sorting extends JPanel {
 
-    private static final int ARRAY_SIZE = 50;
+    private static final int ARRAY_SIZE = 35;
     private static final int BAR_WIDTH = 40;
     private int[] array;
     private int currentMovingBarIndex = -1;
@@ -48,7 +48,7 @@ public class sorting extends JPanel {
         sortingPanel.setBackground(Color.WHITE);
         add(sortingPanel, BorderLayout.CENTER);
 
-        startButton = new JButton("Start Sorting");
+        startButton = new JButton("Start Bubble Sort");
         startButton.addActionListener(e -> startSorting());
         add(startButton, BorderLayout.SOUTH);
 
