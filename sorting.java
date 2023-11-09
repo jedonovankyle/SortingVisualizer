@@ -31,7 +31,7 @@ public class sorting extends JPanel {
         array = new int[ARRAY_SIZE];
         Random random = new Random();
         for (int i = 0; i < ARRAY_SIZE; i++) {
-            array[i] = random.nextInt(400) + 100; // Generates random values between 100 and 500
+            array[i] = random.nextInt(900) + 100; // Generates random values between 100 and 1000
         }
     }
 
